@@ -9,10 +9,31 @@
 /* Begin PBXBuildFile section */
 		4F393A291C3C8BCD00B3EA13 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F393A281C3C8BCD00B3EA13 /* main.swift */; };
 		4FD6C47A1B754AF1002F9F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C4791B754AF1002F9F90 /* AppDelegate.swift */; };
-		4FD6C49F1B755242002F9F90 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C49C1B755242002F9F90 /* RootViewController.swift */; };
-		4FD6C4A01B755242002F9F90 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C49D1B755242002F9F90 /* InitialViewController.swift */; };
 		78A235BD93AB7D080D67CD51 /* Pods_SmartSyncExplorerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A29C75280BDF73123F14B4 /* Pods_SmartSyncExplorerSwift.framework */; };
 		B7168FBC1FACC6F900A48DB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7168FBB1FACC6F900A48DB5 /* LaunchScreen.storyboard */; };
+		B767370220AB57C600F04103 /* userstore.json in Resources */ = {isa = PBXBuildFile; fileRef = B767370020AB57C600F04103 /* userstore.json */; };
+		B767370320AB57C600F04103 /* usersyncs.json in Resources */ = {isa = PBXBuildFile; fileRef = B767370120AB57C600F04103 /* usersyncs.json */; };
+		B767370D20AB611500F04103 /* SObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767370C20AB611500F04103 /* SObjects.swift */; };
+		B76D655C20B3314A00B55764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76D655B20B3314A00B55764 /* Assets.xcassets */; };
+		B76D656320B3322B00B55764 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76D655E20B3322B00B55764 /* ContactDetailViewController.swift */; };
+		B76D656420B3322B00B55764 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76D655F20B3322B00B55764 /* RootViewController.swift */; };
+		B76D656520B3322B00B55764 /* AdditionalActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76D656020B3322B00B55764 /* AdditionalActionsViewController.swift */; };
+		B76D656620B3322B00B55764 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76D656120B3322B00B55764 /* InitialViewController.swift */; };
+		B76D656720B3322B00B55764 /* UniversalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76D656220B3322B00B55764 /* UniversalViewController.swift */; };
+		B76D656D20B3323A00B55764 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76D656920B3323A00B55764 /* Constants.swift */; };
+		B76D656E20B3323A00B55764 /* UIFont+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76D656A20B3323A00B55764 /* UIFont+helper.swift */; };
+		B76D656F20B3323A00B55764 /* UIColors+helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76D656B20B3323A00B55764 /* UIColors+helper.swift */; };
+		B76D657020B3323A00B55764 /* ContactHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76D656C20B3323A00B55764 /* ContactHelpers.swift */; };
+		B76D657320B332D400B55764 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76D657220B332D400B55764 /* ContactTableViewCell.swift */; };
+		B76D65D420B384B100B55764 /* SalesforceSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B76D65CC20B384B000B55764 /* SalesforceSans-Italic.ttf */; };
+		B76D65D520B384B100B55764 /* SalesforceSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B76D65CD20B384B000B55764 /* SalesforceSans-Light.ttf */; };
+		B76D65D620B384B100B55764 /* SalesforceSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B76D65CE20B384B000B55764 /* SalesforceSans-LightItalic.ttf */; };
+		B76D65D720B384B100B55764 /* SalesforceSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B76D65CF20B384B000B55764 /* SalesforceSans-BoldItalic.ttf */; };
+		B76D65D820B384B100B55764 /* SalesforceSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B76D65D020B384B000B55764 /* SalesforceSans-Regular.ttf */; };
+		B76D65D920B384B100B55764 /* SalesforceSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B76D65D120B384B000B55764 /* SalesforceSans-Bold.ttf */; };
+		B76D65DA20B384B100B55764 /* SalesforceSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B76D65D220B384B100B55764 /* SalesforceSans-Thin.ttf */; };
+		B76D65DB20B384B100B55764 /* SalesforceSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B76D65D320B384B100B55764 /* SalesforceSans-ThinItalic.ttf */; };
+		B76D65DD20B4A0C900B55764 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76D65DC20B4A0C900B55764 /* Contacts.swift */; };
 		CEA8CA041F071B2300448B51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA8CA031F071B2300448B51 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -23,12 +44,33 @@
 		4FD6C4781B754AF1002F9F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FD6C4791B754AF1002F9F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FD6C49A1B755242002F9F90 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		4FD6C49C1B755242002F9F90 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		4FD6C49D1B755242002F9F90 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		4FF12F8A1DCA91F5004D9EF9 /* SmartSyncExplorerSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartSyncExplorerSwift.entitlements; sourceTree = "<group>"; };
 		762732C14CFE40A989C3AD70 /* Pods-SmartSyncExplorerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSyncExplorerSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartSyncExplorerSwift/Pods-SmartSyncExplorerSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		82A29C75280BDF73123F14B4 /* Pods_SmartSyncExplorerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartSyncExplorerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7168FBB1FACC6F900A48DB5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "../mobile_sdk/SalesforceMobileSDK-iOS/shared/resources/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		B767370020AB57C600F04103 /* userstore.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = userstore.json; sourceTree = "<group>"; };
+		B767370120AB57C600F04103 /* usersyncs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = usersyncs.json; sourceTree = "<group>"; };
+		B767370C20AB611500F04103 /* SObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SObjects.swift; sourceTree = "<group>"; };
+		B76D655B20B3314A00B55764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B76D655E20B3322B00B55764 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		B76D655F20B3322B00B55764 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		B76D656020B3322B00B55764 /* AdditionalActionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdditionalActionsViewController.swift; sourceTree = "<group>"; };
+		B76D656120B3322B00B55764 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		B76D656220B3322B00B55764 /* UniversalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversalViewController.swift; sourceTree = "<group>"; };
+		B76D656920B3323A00B55764 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B76D656A20B3323A00B55764 /* UIFont+helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+helper.swift"; sourceTree = "<group>"; };
+		B76D656B20B3323A00B55764 /* UIColors+helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColors+helper.swift"; sourceTree = "<group>"; };
+		B76D656C20B3323A00B55764 /* ContactHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactHelpers.swift; sourceTree = "<group>"; };
+		B76D657220B332D400B55764 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		B76D65CC20B384B000B55764 /* SalesforceSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SalesforceSans-Italic.ttf"; sourceTree = "<group>"; };
+		B76D65CD20B384B000B55764 /* SalesforceSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SalesforceSans-Light.ttf"; sourceTree = "<group>"; };
+		B76D65CE20B384B000B55764 /* SalesforceSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SalesforceSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		B76D65CF20B384B000B55764 /* SalesforceSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SalesforceSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B76D65D020B384B000B55764 /* SalesforceSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SalesforceSans-Regular.ttf"; sourceTree = "<group>"; };
+		B76D65D120B384B000B55764 /* SalesforceSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SalesforceSans-Bold.ttf"; sourceTree = "<group>"; };
+		B76D65D220B384B100B55764 /* SalesforceSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SalesforceSans-Thin.ttf"; sourceTree = "<group>"; };
+		B76D65D320B384B100B55764 /* SalesforceSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SalesforceSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B76D65DC20B4A0C900B55764 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		CEA8CA031F071B2300448B51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "mobile_sdk/SalesforceMobileSDK-iOS/shared/resources/Images.xcassets"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -65,6 +107,15 @@
 		4FD6C4761B754AF1002F9F90 /* SmartSyncExplorerSwift */ = {
 			isa = PBXGroup;
 			children = (
+				B76D65D120B384B000B55764 /* SalesforceSans-Bold.ttf */,
+				B76D65CF20B384B000B55764 /* SalesforceSans-BoldItalic.ttf */,
+				B76D65CC20B384B000B55764 /* SalesforceSans-Italic.ttf */,
+				B76D65CD20B384B000B55764 /* SalesforceSans-Light.ttf */,
+				B76D65CE20B384B000B55764 /* SalesforceSans-LightItalic.ttf */,
+				B76D65D020B384B000B55764 /* SalesforceSans-Regular.ttf */,
+				B76D65D220B384B100B55764 /* SalesforceSans-Thin.ttf */,
+				B76D65D320B384B100B55764 /* SalesforceSans-ThinItalic.ttf */,
+				B76D657120B332D400B55764 /* Views */,
 				4FF12F8A1DCA91F5004D9EF9 /* SmartSyncExplorerSwift.entitlements */,
 				4FD6C4A11B755265002F9F90 /* Classes */,
 				4FD6C4771B754AF1002F9F90 /* Supporting Files */,
@@ -75,9 +126,12 @@
 		4FD6C4771B754AF1002F9F90 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B767370020AB57C600F04103 /* userstore.json */,
+				B767370120AB57C600F04103 /* usersyncs.json */,
 				B7168FBB1FACC6F900A48DB5 /* LaunchScreen.storyboard */,
 				CEA8CA031F071B2300448B51 /* Images.xcassets */,
 				4FD6C4781B754AF1002F9F90 /* Info.plist */,
+				B76D655B20B3314A00B55764 /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -85,9 +139,10 @@
 		4FD6C4A11B755265002F9F90 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B76D656820B3323A00B55764 /* Helpers */,
+				B76D655D20B3322B00B55764 /* ViewControllers */,
+				B767370B20AB60B300F04103 /* SObjects */,
 				4FD6C49A1B755242002F9F90 /* Bridging-Header.h */,
-				4FD6C49C1B755242002F9F90 /* RootViewController.swift */,
-				4FD6C49D1B755242002F9F90 /* InitialViewController.swift */,
 				4FD6C4791B754AF1002F9F90 /* AppDelegate.swift */,
 				4F393A281C3C8BCD00B3EA13 /* main.swift */,
 			);
@@ -100,6 +155,46 @@
 				82A29C75280BDF73123F14B4 /* Pods_SmartSyncExplorerSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B767370B20AB60B300F04103 /* SObjects */ = {
+			isa = PBXGroup;
+			children = (
+				B767370C20AB611500F04103 /* SObjects.swift */,
+				B76D65DC20B4A0C900B55764 /* Contacts.swift */,
+			);
+			path = SObjects;
+			sourceTree = "<group>";
+		};
+		B76D655D20B3322B00B55764 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B76D655E20B3322B00B55764 /* ContactDetailViewController.swift */,
+				B76D655F20B3322B00B55764 /* RootViewController.swift */,
+				B76D656020B3322B00B55764 /* AdditionalActionsViewController.swift */,
+				B76D656120B3322B00B55764 /* InitialViewController.swift */,
+				B76D656220B3322B00B55764 /* UniversalViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B76D656820B3323A00B55764 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B76D656920B3323A00B55764 /* Constants.swift */,
+				B76D656A20B3323A00B55764 /* UIFont+helper.swift */,
+				B76D656B20B3323A00B55764 /* UIColors+helper.swift */,
+				B76D656C20B3323A00B55764 /* ContactHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B76D657120B332D400B55764 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B76D657220B332D400B55764 /* ContactTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		DDFDDF0A29E4BDD114B51BBC /* Pods */ = {
@@ -179,7 +274,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA8CA041F071B2300448B51 /* Images.xcassets in Resources */,
+				B76D65D920B384B100B55764 /* SalesforceSans-Bold.ttf in Resources */,
 				B7168FBC1FACC6F900A48DB5 /* LaunchScreen.storyboard in Resources */,
+				B767370220AB57C600F04103 /* userstore.json in Resources */,
+				B76D65D620B384B100B55764 /* SalesforceSans-LightItalic.ttf in Resources */,
+				B767370320AB57C600F04103 /* usersyncs.json in Resources */,
+				B76D65D420B384B100B55764 /* SalesforceSans-Italic.ttf in Resources */,
+				B76D65D520B384B100B55764 /* SalesforceSans-Light.ttf in Resources */,
+				B76D65D720B384B100B55764 /* SalesforceSans-BoldItalic.ttf in Resources */,
+				B76D655C20B3314A00B55764 /* Assets.xcassets in Resources */,
+				B76D65DA20B384B100B55764 /* SalesforceSans-Thin.ttf in Resources */,
+				B76D65D820B384B100B55764 /* SalesforceSans-Regular.ttf in Resources */,
+				B76D65DB20B384B100B55764 /* SalesforceSans-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +366,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76D657320B332D400B55764 /* ContactTableViewCell.swift in Sources */,
+				B76D656720B3322B00B55764 /* UniversalViewController.swift in Sources */,
+				B76D656420B3322B00B55764 /* RootViewController.swift in Sources */,
+				B76D656620B3322B00B55764 /* InitialViewController.swift in Sources */,
+				B76D656520B3322B00B55764 /* AdditionalActionsViewController.swift in Sources */,
 				4FD6C47A1B754AF1002F9F90 /* AppDelegate.swift in Sources */,
-				4FD6C49F1B755242002F9F90 /* RootViewController.swift in Sources */,
+				B76D65DD20B4A0C900B55764 /* Contacts.swift in Sources */,
 				4F393A291C3C8BCD00B3EA13 /* main.swift in Sources */,
-				4FD6C4A01B755242002F9F90 /* InitialViewController.swift in Sources */,
+				B76D656320B3322B00B55764 /* ContactDetailViewController.swift in Sources */,
+				B767370D20AB611500F04103 /* SObjects.swift in Sources */,
+				B76D656E20B3323A00B55764 /* UIFont+helper.swift in Sources */,
+				B76D656F20B3323A00B55764 /* UIColors+helper.swift in Sources */,
+				B76D657020B3323A00B55764 /* ContactHelpers.swift in Sources */,
+				B76D656D20B3323A00B55764 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +497,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = SmartSyncExplorerSwift/SmartSyncExplorerSwift.entitlements;
 				INFOPLIST_FILE = SmartSyncExplorerSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.salesforce.mobilesdk.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -399,7 +515,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = SmartSyncExplorerSwift/SmartSyncExplorerSwift.entitlements;
 				INFOPLIST_FILE = SmartSyncExplorerSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.salesforce.mobilesdk.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

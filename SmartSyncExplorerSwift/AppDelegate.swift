@@ -147,7 +147,7 @@ class AppDelegate : UIResponder, UIApplicationDelegate
     
     func setupRootViewController()
     {
-        let rootVC = RootViewController(nibName: nil, bundle: nil)
+        let rootVC = RootViewController()
         let navVC = UINavigationController(rootViewController: rootVC)
         self.window!.rootViewController = navVC
     }
